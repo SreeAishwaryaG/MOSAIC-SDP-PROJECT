@@ -1,0 +1,152 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5E8DC; /* Light Beige */
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    min-height: 100vh;
+    overflow-y: auto; /* Ensure the page is scrollable */
+    background-color: #F5E8DC; /* Light Beige */
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 5rem;
+}
+
+.profile-icon {
+    font-size: 50px;
+    color: #0C0C0C; /* Dark Gray */
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0;
+    color: #0C0C0C; /* Dark Gray */
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.profile-details{
+    width: 100%;
+    max-width: 800px;
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative; /* For positioning edit icon */
+}
+
+
+.profile-address {
+    width: 100%;
+    max-width: 800px;
+    background-color: #FFFFFF; /* White */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    position: relative; /* For positioning edit icon */
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.address-details {
+    display: flex;
+    align-items: center;
+}
+
+.profile-label {
+    font-weight: bold;
+    color: #0C0C0C; /* Dark Gray */
+    margin-right: 10px;
+    flex: 1;
+}
+
+.profile-value {
+    color: #333;
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.edit-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #9B3922; /* Maroon */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.address-icon {
+    margin-right: 10px;
+    color: #9B3922; /* Maroon */
+    font-size: 24px;
+}
+
+.profile-icon, .address-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #9B3922; /* Maroon */
+}
+
+.edit-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.save-button {
+    background-color: #9B3922; /* Maroon */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0; /* Margin to separate from the content */
+    align-self: center; /* Center the button horizontally */
+}
+
+.save-button:hover {
+    background-color: #F2613F; /* Complementary lighter color */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .profile-details, .profile-address {
+        padding: 20px;
+    }
+
+    .profile-item, .address-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .profile-label, .profile-value {
+        width: 100%;
+        text-align: left;
+    }
+
+    .profile-label {
+        margin-bottom: 5px;
+    }
+}

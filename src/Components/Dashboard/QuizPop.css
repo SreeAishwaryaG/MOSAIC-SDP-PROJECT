@@ -1,0 +1,92 @@
+.quiz-pop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .quiz-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .quiz-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quiz-info p {
+    margin-bottom: 20px;
+  }
+  
+  .start-quiz-button {
+    padding: 10px 20px;
+    background-color: #9B3922;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .quiz-question h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question p {
+    margin-bottom: 20px;
+  }
+  
+  .quiz-options button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    background-color: #fff;
+    color: #3e160d;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .quiz-options button:hover {
+    background-color: #cc733c;
+    color: white;
+  }
+  
+  .quiz-recommendation h2 {
+    margin-bottom: 10px;
+  }
+  
+  .quiz-recommendation p {
+    margin-bottom: 20px;
+  }
+  
+  .quiz-recommendation button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
