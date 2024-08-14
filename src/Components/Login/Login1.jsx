@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import axios from 'axios';
 import { UserContext } from '../UserContext';
 
-// Styled Components
+
 const LoginPageContainer = styled.div`
   display: flex;
   height: 100vh;
@@ -96,7 +96,6 @@ const ErrorMessage = styled.div`
   font-size: 0.875rem;
 `;
 
-// LoginPage Component
 const LoginPage = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });
   const [errors, setErrors] = useState({});
